@@ -270,7 +270,7 @@ hr {{
     border-radius: 10px;
 }}
 html {{
-    zoom: 90%;
+    zoom: 95%;
 }}
 </style>
 """, unsafe_allow_html=True)
