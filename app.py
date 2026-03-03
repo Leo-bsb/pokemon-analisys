@@ -41,7 +41,7 @@ COLORS = {
 }
 
 st.markdown(f"""
-<
+<style>
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap');
 
 html, body, [class*="css"] {{
@@ -268,6 +268,9 @@ hr {{
 
 .stAlert {{
     border-radius: 10px;
+}}
+html {{
+    zoom: 90%;
 }}
 </style>
 """, unsafe_allow_html=True)
