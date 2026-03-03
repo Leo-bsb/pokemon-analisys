@@ -58,7 +58,7 @@ Construir um pipeline de ponta a ponta capaz de:
 
 ### Resumo executivo
 
-O projeto partiu de **46.125 registros brutos de batalha** e **799 Pokémon únicos**. Após limpeza que removeu ~4% de duplicatas e filtrou batalhas com dados incompletos, foi construído um dataset estruturado e consistente para modelagem.
+O projeto partiu de **46.125 registros brutos de batalha** e **799 Pokémon únicos**, após limpeza que removeu ~4% de duplicatas e filtrou batalhas com dados incompletos. Em seguida, foi construído um dataset estruturado e consistente para modelagem.
 
 A análise exploratória indicou que **Speed é o fator mais associado ao resultado**: 92,4% das vitórias ocorrem quando o Pokémon é o mais rápido (correlação de 0,677). A vantagem de tipo também aparece nos dados, mas com impacto bem menor — cerca de 2 pontos percentuais acima do baseline neutro.
 
