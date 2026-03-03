@@ -4,6 +4,8 @@
 
 ### Pipeline de Dados e Machine Learning — do ETL à aplicação interativa
 
+[![Acessar Aplicação](https://img.shields.io/badge/🔗_Acessar_Demo-Aplicação_Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://pokemon-analysis.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-2.2+-150458?style=flat&logo=pandas&logoColor=white)
 ![DuckDB](https://img.shields.io/badge/DuckDB-1.1+-FFF000?style=flat&logo=duckdb&logoColor=black)
@@ -18,7 +20,7 @@
 ---
 
 > **Os atributos estruturais de um Pokémon são suficientes para prever quem vence uma batalha?**
-> Esse projeto tenta responder essa pergunta com um pipeline completo — da extração autenticada dos dados até uma aplicação interativa de predição.
+> Esse projeto tenta responder essa pergunta com um pipeline completo — da extração autenticada dos dados até uma aplicação interativa de predição. **[Experimente a aplicação final clicando aqui!](https://pokemon-analysis.streamlit.app/)**
 
 ---
 
@@ -51,6 +53,7 @@ Construir um pipeline de ponta a ponta capaz de:
 - Investigar hipóteses sobre quais atributos mais influenciam o resultado das batalhas
 - Treinar e comparar modelos supervisionados de classificação
 - Entregar insights interpretáveis, sustentados pelos dados e pelos modelos
+- **Disponibilizar os resultados em uma [aplicação interativa](https://pokemon-analysis.streamlit.app/)** onde é possível simular batalhas e visualizar os achados
 
 ### Pergunta central
 
@@ -70,6 +73,8 @@ Dois modelos foram treinados e comparados:
 | CatBoost | ~88% | ~0,94 |
 
 ---
+
+Ficou com uma ótima cara! Agora quem visitar o repositório pode testar a aplicação imediatamente. Quer que eu siga editando o restante do README ou precisa de algo mais?
 
 ## 2. Arquitetura do Projeto
 
