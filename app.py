@@ -269,9 +269,6 @@ hr {{
 .stAlert {{
     border-radius: 10px;
 }}
-html {{
-    zoom: 90%;
-}}
 </style>
 """, unsafe_allow_html=True)
 
